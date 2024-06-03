@@ -70,11 +70,14 @@
             height: 40px;
             border-radius: 50%;
             margin-right: 10px;
+            display: none;
         }
         .profile-photo.sender {
-            margin-left: 10px;
-            margin-right: 0;
-        }
+    margin-left: 10px;
+    margin-right: 0;
+    display: none; /* This makes the element invisible */
+}
+
         #new-message {
             margin-right: 10px;
             flex: 1;

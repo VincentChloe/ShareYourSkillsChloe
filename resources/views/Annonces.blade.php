@@ -1558,7 +1558,7 @@ nav a {
     <p>Calligraphie</p>
 </div>
 
-<footer id="footer">© 2024 ShareYouSkills. Tous droits réservés. Conçu avec amour par Bonnet Matthieu, Vincent Chloé.</footer>
+<footer id="footer">© 2024 ShareYourSkills. Tous droits réservés. Conçu avec amour par Bonnet Matthieu, Vincent Chloé.</footer>
 <script type="text/javascript">
     document.addEventListener("DOMContentLoaded", function() {
         window.addEventListener('scroll', function() {
