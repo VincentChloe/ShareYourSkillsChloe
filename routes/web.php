@@ -21,7 +21,7 @@ Route::middleware([
     })->name('dashboard');
     Route::get('/credits', [CreditsController::class, 'index'])->name('credits');
     Route::post('/credits/add-review', [CreditsController::class, 'addReviewCredit'])->name('credits.add-review');
-    Route::post('/credits/watch-ad-credit', [CreditsController::class, 'watchAdCredit'])->name('credits.watch-ad-credit');
+    Route::post('/credits/watch-ad-credit', [CreditsController::class, 'watchAdCredit'])->name('credits.watch-ad');
 
     Route::get('/messages/{demandeId}', [MessageController::class, 'index']);
     Route::post('/messages/{demandeId}', [MessageController::class, 'store']);
